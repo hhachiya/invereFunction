@@ -25,7 +25,7 @@ plt.savefig('analysis_cluster.png')
 # top 5 words for each cluster
 input('Enterを押すと, 各クラスター中心に関連する語top5を表示します:')
 for c in range(len(top_similar_words)):
-	print("クラスター{}: {}".format(c,top_similar_words[c][:5]))
+	print("クラスター{} ({:.1f},{:.1f}): {}".format(c,kmeans.cluster_centers_[c,0],kmeans.cluster_centers_[c,1],top_similar_words[c][:5]))
 print("\n")
 
 for c in range(len(warrior_names_by_cluster)):
