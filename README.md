@@ -1,4 +1,9 @@
-### 武将データの可視化
+### 武将データの可視化ツールの実行方法
+### 要件
+* Ubuntu 16.04
+* Anaconda python 3.6（Scikit-learn, numpy, matplotlibなどの標準的なパッケージ込み）
+
+### 実行例
 以下のようにanalyze_warrior.pyを実行すると、T-SNEで次元削減しクラスタリングされた武将データの２次元プロットと、各クラスターに関連する語、および各クラスターに属する武将名の一覧を表示することができます。。
 
 python analyze_warrior.py
