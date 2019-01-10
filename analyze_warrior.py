@@ -16,5 +16,9 @@ with open(clusterOutPath,'rb') as fp:
 	kmeans = pkl.load(fp)
 	warrior_names = pkl.load(fp)
 	warrior_names_by_cluster = pkl.load(fp)
+	pdb.set_trace()
 	fig = pkl.load(fp)
 	
+fig.show()
+
+pdb.set_trace()
