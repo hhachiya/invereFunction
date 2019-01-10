@@ -3,7 +3,7 @@
 
 python analyze_warrior.py
  
-(https://raw.githubusercontent.com/hhachiya/invereFunction/master/analysis_cluster.png "clustering result")
+![alt text](https://raw.githubusercontent.com/hhachiya/invereFunction/master/analysis_cluster.png "clustering result")
 
 ```python
 Enterを押すと, 各クラスター中心に関連する語top5を表示します
