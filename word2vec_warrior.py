@@ -236,6 +236,7 @@ if __name__ =="__main__":
 
     #ファイル名をまとめているテキストからファイル名を読み出す
     f = open('file_name_warrior.txt','r')
+
     #ファイル名がすべて接続されて居るので区切り文字を指定してファイル名ごとに分ける
     lines = f.readlines()
     fn = [line.strip() for line in lines]

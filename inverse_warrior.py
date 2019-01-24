@@ -11,12 +11,12 @@ from sklearn.cluster import KMeans
 batch_size = 100
 train_count = 0
 test_count = 0
-ite = 20000
+ite = 50000
 src_vec_length = 2
 hidden_unit_num = 500
 tar_vec_length = 100
 method = 1 #1:w2v,2:tfidf
-train_per = 0.8
+train_per = 0.9
 nCluster = 10
 
 #===========================
@@ -81,7 +81,7 @@ elif method == 2:
     tar_dataPath = 'warrior-data-pkl/tfidf'
 
 clusterOutPath = 'warrior-data-cluster/analysis.pickle'
-warriorNamePath = 'warrior-data-txt/_name2.txt'
+warriorNamePath = 'warrior-data-txt/warrior_name.txt'
 modelPath = 'wikipedia-data-model/word2vec.model'
 #===========================
 
